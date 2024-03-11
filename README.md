@@ -90,6 +90,6 @@ In order to get evaluation, do not forget to share your code on a Github reposit
 
 # Deliverables 📬
 Here you can find my :
-* [GetAround Dashboard on Streamlit]([https://jedha-fullstack-streamlit-c3b3fcc31782.herokuapp.com/)
+* [GetAround Dashboard on Streamlit](https://jedha-fullstack-streamlit-c3b3fcc31782.herokuapp.com/)
 * [MLFlow server](https://jedha-fullstack-deployment-a1e3f74298ba.herokuapp.com/)
 * [Getaround API docs](https://jedha-fullstack-getaroundapi-c37daf8b3a42.herokuapp.com/docs)
