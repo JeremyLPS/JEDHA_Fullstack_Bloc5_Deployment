@@ -71,9 +71,9 @@ It has to be located at the /docs of your website. If we take the URL example ab
 
 This small documentation should at least include:
 
-An h1 title: the title is up to you.
-A description of every endpoints the user can call with the endpoint name, the HTTP method, the required input and the expected output (you can give example).
-You are free to add other any other relevant informations and style your HTML as you wish.
+* An h1 title: the title is up to you.
+* A description of every endpoints the user can call with the endpoint name, the HTTP method, the required input and the expected output (you can give example).
+* You are free to add other any other relevant informations and style your HTML as you wish.
 
 # Online production
 You have to host your API online. We recommend you to use Heroku as it is free of charge. But you are free to choose any other hosting provider.
