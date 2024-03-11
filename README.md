@@ -125,11 +125,4 @@ response = requests.post("https://your-url/predict", json={
 })
 print(response.json())
 ```
-**Data**
-There are two files you need to download:
-
-Delay Analysis 👈 Data Analysis
-Pricing Optimization 👈 Machine Learning
-Happy coding! 👩‍💻
-
 
