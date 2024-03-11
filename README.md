@@ -70,7 +70,7 @@ Response example:
 You need to provide the users with a documentation about your API.
 
 It has to be located at the /docs of your website. If we take the URL example above, it should be located directly at https:/
-{
+```{
   "prediction":[6,6]
 }
 ```
@@ -115,16 +115,16 @@ A dashboard in production (accessible via a web page for example)
 The whole code stored in a Github repository. You will include the repository's URL.
 An documented online API on Heroku server (or any other provider you choose) containing at least one /predict endpoint that respects the technical description above. We should be able to request the API endpoint /predict using curl:
 
-
-$ curl -i -H "Content-Type: application/json" -X POST -d '{"input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]}' http://your-url/predict
+```$ curl -i -H "Content-Type: application/json" -X POST -d '{"input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]}' http://your-url/predict```
 
 Or Python:
-import requests
+```import requests
 
 response = requests.post("https://your-url/predict", json={
     "input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]
 })
 print(response.json())
+```
 **Data**
 There are two files you need to download:
 
