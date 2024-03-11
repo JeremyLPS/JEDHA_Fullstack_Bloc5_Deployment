@@ -68,7 +68,8 @@ Response example:
 You need to provide the users with a documentation about your API.
 
 It has to be located at the /docs of your website. If we take the URL example above, it should be located directly at https:/
-```{
+```
+{
   "prediction":[6,6]
 }
 ```
