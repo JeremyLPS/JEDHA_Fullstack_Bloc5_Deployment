@@ -52,17 +52,17 @@ You should provide at least one endpoint /predict. The full URL would look like 
 This endpoint accepts POST method with JSON input data and it should return the predictions. We assume inputs will be always well formatted. It means you do not have to manage errors. We leave the error handling as a bonus.
 
 Input example:
-
+```
 {
   "input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8], [7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]
-}
+} ```
 The response should be a JSON with one key prediction corresponding to the prediction.
 
 Response example:
-
+```
 {
   "prediction":[6,6]
-}
+} ```
 # Documentation page
 You need to provide the users with a documentation about your API.
 
@@ -94,16 +94,17 @@ To complete this project, you should deliver:
 A dashboard in production (accessible via a web page for example)
 The whole code stored in a Github repository. You will include the repository's URL.
 An documented online API on Heroku server (or any other provider you choose) containing at least one /predict endpoint that respects the technical description above. We should be able to request the API endpoint /predict using curl:
-$ curl -i -H "Content-Type: application/json" -X POST -d '{"input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]}' http://your-url/predict
+```
+$ curl -i -H "Content-Type: application/json" -X POST -d '{"input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]}' http://your-url/predict ```
 Or Python:
-
+```
 import requests
 
 response = requests.post("https://your-url/predict", json={
     "input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]
 })
-print(response.json())
-Data
+print(response.json())```
+**Data**
 There are two files you need to download:
 
 Delay Analysis 👈 Data Analysis
