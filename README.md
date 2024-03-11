@@ -29,7 +29,7 @@ In order to mitigate those issues we’ve decided to implement a minimum delay b
 
 It solves the late checkout issue but also potentially hurts Getaround/owners revenues: we need to find the right trade off.
 
-Our Product Manager still needs to decide:
+**Our Product Manager still needs to decide**:
 
 * **threshold**: how long should the minimum delay be?
 * **scope**: should we enable the feature for all cars?, only Connect cars?
