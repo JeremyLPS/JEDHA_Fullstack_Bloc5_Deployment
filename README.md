@@ -14,9 +14,9 @@ Compare fuel levels.
 Measure how many kilometers were driven.
 The checkin and checkout of our rentals can be done with three distinct flows:
 
-📱 Mobile rental agreement on native apps: driver and owner meet and both sign the rental agreement on the owner’s smartphone
-Connect: the driver doesn’t meet the owner and opens the car with his smartphone
-📝 Paper contract (negligible)
+* 📱 Mobile rental agreement on native apps: driver and owner meet and both sign the rental agreement on the owner’s smartphone
+* Connect: the driver doesn’t meet the owner and opens the car with his smartphone
+* 📝 Paper contract (negligible)
 # Project 🚧
 For this case study, we suggest that you put yourselves in our shoes, and run an analysis we made back in 2017 🔮 🪄
 
@@ -31,8 +31,8 @@ It solves the late checkout issue but also potentially hurts Getaround/owners re
 
 Our Product Manager still needs to decide:
 
-threshold: how long should the minimum delay be?
-scope: should we enable the feature for all cars?, only Connect cars?
+* **threshold**: how long should the minimum delay be?
+* **scope**: should we enable the feature for all cars?, only Connect cars?
 In order to help them make the right decision, they are asking you for some data insights. Here are the first analyses they could think of, to kickstart the discussion. Don’t hesitate to perform additional analysis that you find relevant.
 
 Which share of our owner’s revenue would potentially be affected by the feature?
