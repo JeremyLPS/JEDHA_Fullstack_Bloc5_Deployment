@@ -88,22 +88,8 @@ You are not obligated to use libraries to handle your Machine Learning workflow 
 Share your code
 In order to get evaluation, do not forget to share your code on a Github repository. You can create a README.md file with a quick description about this project, how to setup locally and the online URL.
 
-# Deliverable 📬
-To complete this project, you should deliver:
-
-A dashboard in production (accessible via a web page for example)
-The whole code stored in a Github repository. You will include the repository's URL.
-An documented online API on Heroku server (or any other provider you choose) containing at least one /predict endpoint that respects the technical description above. We should be able to request the API endpoint /predict using curl:
-
-```$ curl -i -H "Content-Type: application/json" -X POST -d '{"input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]}' http://your-url/predict```
-
-Or Python:
-```
-import requests
-
-response = requests.post("https://your-url/predict", json={
-    "input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]
-})
-print(response.json())
-```
-
+# Deliverables 📬
+Here you can find my :
+* [GetAround Dashboard on Streamlit]([https://jedha-fullstack-streamlit-c3b3fcc31782.herokuapp.com/)
+* [MLFlow server](https://jedha-fullstack-deployment-a1e3f74298ba.herokuapp.com/)
+* [Getaround API docs](https://jedha-fullstack-getaroundapi-c37daf8b3a42.herokuapp.com/docs)
