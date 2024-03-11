@@ -52,8 +52,8 @@ You should provide at least one endpoint /predict. The full URL would look like 
 This endpoint accepts POST method with JSON input data and it should return the predictions. We assume inputs will be always well formatted. It means you do not have to manage errors. We leave the error handling as a bonus.
 
 Input example:
-```
-{
+
+```{
   "input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8], [7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]
 }```
 The response should be a JSON with one key prediction corresponding to the prediction.
